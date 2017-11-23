@@ -6,3 +6,5 @@
 
 ### Short Description
 My attempt to make a reinforcement learning bot for rocket league
+
+Rocket league hook taken from https://github.com/drssoccer55/RLBot. Big thanks to drssoccer55 for making this awesome tool!
