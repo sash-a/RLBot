@@ -45,9 +45,9 @@ class Agent:
             turn = 1.0
 
         state = GameInfo(game_tick_packet, self.index)
-        print(state.p_loc.z)
-        print('ball: ', state.ball_loc.z)
+        print(state.get_input_matrix())
 
         # throttle, stear, pitch, yaw, roll, jump, boost, handbreak
-        self.jump = not self.jump
+        print('vel', gameTickPacket.gameball.Velocity.X)
+
         return [1.0, turn, 0, 0, 0, False, 0, 0]
