@@ -1,6 +1,3 @@
-import numpy as np
-
-
 class Bot:
     def __init__(self, index, game_ticket):
         self.index = index
